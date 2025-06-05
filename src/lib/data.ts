@@ -100,6 +100,12 @@ export const projects = [
     imageUrl: "project_covers/DBTSnowPipeline.jpg",
     description: "This project is responsible for transforming and modeling a dataset using dbt (Data Build Tool)and Snowflake.",
   },
+  {
+    title: "Weather Flow Project",
+    github: "https://github.com/DylanGonzaloFerreyra/Weather-Flow-Project",
+    imageUrl: "project_covers/WeatherFlowProject.jpg",
+    description: "This project is an automated system for extracting, transform and storing meteorological data using OpenWeatherMap, Apache Spark, Supabase y Airflow",
+  },
 
   
 ];
