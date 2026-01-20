@@ -1,10 +1,22 @@
 export const personalInfo = {
   name: "Dylan Ferreyra",
-  location: "Buenos Aires, Argentina",
+  location: "La Plata, Buenos Aires, Argentina",
   email: "dylanferreyra006@gmail.com",
   github: "https://github.com/DylanGonzaloFerreyra",
   linkedin: "https://www.linkedin.com/in/dylan-ferreyra-95698834a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 };
+
+export const workExperience = [
+  {
+    company: "Wollen Labs",
+    location: "Remote",
+    position: "Data & Backend Engineer",
+    period: "Nov 2025 - Present",
+    achievements: [
+      "",
+    ],
+  },
+];
 
 export const education = [
   {
@@ -12,6 +24,12 @@ export const education = [
     location: "La Plata, Buenos Aires",
     degree: "High School Diploma - Electronics Technician",
     period: "Feb 2019 - Nov 2025",
+  },
+  {
+    institution: "Facultad de Informática | Facultad de Ciencias Económicas (UNLP)",
+    location: "La Plata, Buenos Aires",
+    degree: "Data Scientist",
+    period: "Feb 2026 - Present",
   },
 ];
 export const certificates = [
@@ -61,9 +79,7 @@ export const skills = {
     "Python",
     "SQL",
   ],
-  frontendDevelopment: [],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
+  databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Drizzle (ORM)"],
   cloudAndDevOps: ["AWS"],
   dataVisualization: ["Power BI", "Tableau"], 
   toolsAndServices: ["dbt (Data Build Tool)", "Apache Airflow", "Apache Spark", "Snowflake", "Pandas"],

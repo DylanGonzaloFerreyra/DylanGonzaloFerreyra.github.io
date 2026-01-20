@@ -5,7 +5,7 @@ import MotionWrapper from "./MotionWrapper";
 import { useState, useEffect } from "react";
 
 export default function HeroSection() {
-  const titles = ["Junior Data Engineer 👨‍💻", "Junior Backend Engineer"];
+  const titles = ["Junior Data Engineer", "Junior Backend Engineer"];
   const [currentTitle, setCurrentTitle] = useState(0);
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function HeroSection() {
               variants={childVariants}
             >
               {personalInfo.name}{" "}
-              <span className="inline-block animate-pulse">✨</span>
+              <span className="inline-block animate-pulse"></span>
             </motion.h1>
 
             {/* Texto dinámico con animación */}
@@ -148,7 +148,7 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Studying to become a Data Engineer with a focus on Data Analytics. Passionate about understanding and transforming large volumes of information into practical solutions. I'm acquiring skills in data analysis, modeling, and programming tools and techniques to solve complex problems and generate valuable insights. My goal is to continue learning and developing efficient solutions while collaborating with multidisciplinary teams to address technological challenges.
+              Data & Backend Engineer based in Argentina. I specialize in building efficient data pipelines and scalable backend systems using Python, SQL, and Cloud technologies. Currently applying my skills at Wollen Labs while pursuing a Data Science degree at UNLP. Passionate about bridging the gap between complex data and actionable business solutions.
             </p>
           </div>
         </MotionWrapper>
