@@ -10,8 +10,8 @@ export const education = [
   {
     institution: "San Vicente de Paul Technical School",
     location: "La Plata, Buenos Aires",
-    degree: "I'm currently in my 7th and final year for my electronics degree.",
-    period: "Feb 2019 - Present",
+    degree: "High School Diploma - Electronics Technician",
+    period: "Feb 2019 - nov 2025",
   },
 ];
 export const certificates = [
