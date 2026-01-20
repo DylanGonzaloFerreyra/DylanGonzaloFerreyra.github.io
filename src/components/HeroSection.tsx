@@ -5,7 +5,7 @@ import MotionWrapper from "./MotionWrapper";
 import { useState, useEffect } from "react";
 
 export default function HeroSection() {
-  const titles = ["Future Data Engineer 👨‍💻", "Future Data Scientist 🧑‍🔬", "Future Data Analyst 📊"];
+  const titles = ["Junior Data Engineer 👨‍💻", "Junior Backend Engineer"];
   const [currentTitle, setCurrentTitle] = useState(0);
 
   useEffect(() => {

@@ -11,7 +11,7 @@ export const education = [
     institution: "San Vicente de Paul Technical School",
     location: "La Plata, Buenos Aires",
     degree: "High School Diploma - Electronics Technician",
-    period: "Feb 2019 - nov 2025",
+    period: "Feb 2019 - Nov 2025",
   },
 ];
 export const certificates = [
@@ -45,6 +45,12 @@ export const certificates = [
     imageUrl: "certificates/Methodology.jpg",
     link: "https://courses.cognitiveclass.ai/certificates/44bbe2dd450b436997739b70b75530e3",
   },
+  {
+    title: "AWS Cloud Practitioner",
+    description: "Certificate of AWS Cloud Practitioner.",
+    imageUrl: "certificates/udemy_AWS_Certified_Cloud_Practitioner.jpg",
+    link: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-7dd03ee4-a8b3-41bc-bb54-20e2997df460.pdf",
+  }
   
 ];
 
