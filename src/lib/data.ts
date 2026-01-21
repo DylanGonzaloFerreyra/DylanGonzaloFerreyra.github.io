@@ -13,7 +13,10 @@ export const workExperience = [
     position: "Data & Backend Engineer",
     period: "Nov 2025 - Present",
     achievements: [
-      "",
+      "Architected and implemented a high-frequency background job engine to manage complex priority logic and time-sensitive access windows, resolving race conditions and ensuring fair resource allocation in high-demand scenarios.",
+      "Led a core database refactoring initiative, transitioning from a monolithic schema to a scalable domain-driven relational architecture using SQLAlchemy and Drizzle ORM, significantly improving data integrity and query performance.",
+      "Developed a centralized multi-channel notification system (integrating Resend, Twilio, and WebSockets) that orchestrates transactional alerts based on real-time business lifecycle events and user verification status.",
+      "Standardized the API layer using tRPC and Zod for end-to-end type safety and implemented a comprehensive database seeding ecosystem with realistic fixtures to accelerate development and integration testing.",
     ],
   },
 ];
@@ -77,10 +80,12 @@ export const certificates = [
 export const skills = {
   programmingLanguages: [
     "Python",
+    "TypeScript",
     "SQL",
   ],
+  backendAndAPIs: ["FastAPI", "tRPC"],
   databaseAndStorage: ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
+  cloudAndDevOps: ["AWS", "Docker & Docker Compose"],
   dataVisualization: ["Power BI", "Tableau"], 
   toolsAndServices: ["dbt (Data Build Tool)", "Apache Airflow", "Apache Spark", "Snowflake", "Pandas"],
 };
