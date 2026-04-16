@@ -142,7 +142,7 @@ export const projects: Project[] = [
     description:
       'Mobile AR application built with Unity and Vuforia SDK that detects image targets to render 3D models with multimedia events.',
     image: null,
-    github: '',
+    github: 'https://github.com/DylanGonzaloFerreyra/DinosR.A',
   },
   {
     title: 'Siamerse',
