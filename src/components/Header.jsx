@@ -181,7 +181,16 @@ function AnimatedSidebar({ isOpen, setOpen, isHome }) {
               style={{ marginBottom: '12px' }}
             >
               {isHome ? (
-                <a href={item.href} onClick={() => setOpen(false)} style={linkStyle}>
+                <a
+                  href={item.href}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpen(false);
+                    const id = item.href.replace('#', '');
+                    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  style={linkStyle}
+                >
                   {Icon && <Icon size={16} color="var(--accent)" />}
                   {item.label}
                 </a>
@@ -246,7 +255,19 @@ export default function Header() {
           {isHome
             ? navItems.map((item) => {
                 const Icon = navIconMap[item.icon];
-                return <a key={item.label} href={item.href}>{Icon && <Icon size={14} />} {item.label}</a>;
+                return (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const id = item.href.replace('#', '');
+                      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
+                    {Icon && <Icon size={14} />} {item.label}
+                  </a>
+                );
               })
             : navItems.map((item) => {
                 const Icon = navIconMap[item.icon];
