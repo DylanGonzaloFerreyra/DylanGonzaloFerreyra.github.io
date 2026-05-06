@@ -192,6 +192,18 @@ export const certificates: Certificate[] = [
     image: '/certificates/udemy_AWS_Certified_Cloud_Practitioner.jpg',
     link: 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-7dd03ee4-a8b3-41bc-bb54-20e2997df460.pdf',
   },
+  {
+    title: 'ACEITECH - Siemens LOGO! Contest',
+    description: 'Siemens LOGO! Programming Contest - ACEITECH',
+    image: '/certificates/SiemensCertificate.png',
+    link: '/certificates/SiemensCertificate.png',
+  },
+  {
+    title: 'English Certificate C1',
+    description: 'EF SET C1 Advanced Certificate',
+    image: '/certificates/EFSETCertificateC1.png',
+    link: '/certificates/EFSETCertificateC1.pdf',
+  },
 ];
 
 // ─── Experience ───────────────────────────────────────────────────────────────
@@ -333,6 +345,16 @@ export const skills: SkillGroup[] = [
       {
         name: 'Pandas',
         tooltip: '3+ years · Daily driver for data cleaning, transformation, and EDA across all data projects.',
+      },
+    ],
+  },
+  {
+    icon: 'Globe',
+    title: 'Languages',
+    tags: [
+      {
+        name: 'English',
+        tooltip: 'C1 Advanced level · EF SET Certificate · Strong reading and listening comprehension.',
       },
     ],
   },
