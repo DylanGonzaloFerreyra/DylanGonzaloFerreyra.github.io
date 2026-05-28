@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Smartphone, Rocket, Github } from 'lucide-react';
+import { ArrowRight, Smartphone, Rocket, Github, ExternalLink } from 'lucide-react';
 import { projects } from '../lib/data';
 import MotionWrapper from './MotionWrapper';
 
@@ -67,7 +67,8 @@ export default function ProjectsSection({ showAll = false }) {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                       >
-                        <Github size={16} /> View on GitHub
+                        {p.actionLabel ? <ExternalLink size={16} /> : <Github size={16} />}
+                        {' '}{p.actionLabel ?? 'View on GitHub'}
                       </motion.a>
                     </div>
                   )}

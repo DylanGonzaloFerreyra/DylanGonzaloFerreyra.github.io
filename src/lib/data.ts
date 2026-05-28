@@ -14,6 +14,7 @@ export interface Project {
   description: string;
   image: string | null;
   github: string;
+  actionLabel?: string;
 }
 
 export interface Certificate {
@@ -136,6 +137,7 @@ export const projects: Project[] = [
     description: 'Interactive 3D simulation of a smart home automation system built in Unity.',
     image: '/project_covers/SimuladorDomoticoCover.png',
     github: 'https://simulador-domotico.github.io/',
+    actionLabel: 'Visit',
   },
   {
     title: 'Augmented Reality Educational App',
@@ -150,6 +152,14 @@ export const projects: Project[] = [
       'Full-stack mobile app with React Native (Expo SDK 54), Express 5, PostgreSQL, and Drizzle ORM. AI integration via Google Gemini.',
     image: '/project_covers/SiamerseCover.png',
     github: 'https://github.com/DylanGonzaloFerreyra/Siamerse',
+  },
+  {
+    title: 'Laura Ferreyra Legal Practice',
+    description:
+      'Full-stack appointment and payment platform for a legal practice. Features online booking, MercadoPago Checkout Pro payments with webhook confirmation, automated transactional emails and 24-hour reminders via Resend, and a private admin panel for schedule, client, and payment management. Deployed to production with a custom domain and SSL.',
+    image: '/project_covers/estudio_juridico_cover.png',
+    github: 'https://www.estudiojuridicolauraferreyra.com/',
+    actionLabel: 'Visit',
   },
 ];
 
