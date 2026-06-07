@@ -59,7 +59,7 @@ export interface NavItem {
 
 export const personalInfo: PersonalInfo = {
   name: 'Dylan Ferreyra',
-  title: 'Junior Data Engineer  /  Junior Backend Engineer',
+  title: 'Data Engineer  /  Backend Engineer',
   location: 'La Plata, Buenos Aires, Argentina',
   email: 'dylanferreyra006@gmail.com',
   github: 'https://github.com/DylanGonzaloFerreyra',
