@@ -239,6 +239,9 @@ img {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 /* ===== Experience Section ===== */
@@ -815,6 +818,16 @@ img {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* ===== Reveal Animation ===== */
+@keyframes portfolioReveal {
+  from { opacity: 0; transform: translateY(28px); filter: blur(6px); }
+  to   { opacity: 1; transform: translateY(0);    filter: blur(0); }
+}
+
+.reveal-section {
+  animation: portfolioReveal 0.8s ease-out both;
 }
 
 /* ===== Mobile Responsive ===== */

@@ -1,10 +1,10 @@
 import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { skills } from '../lib/data';
-import { Wrench, Laptop, Settings, Database, Cloud, BarChart3 } from 'lucide-react';
+import { Wrench, Laptop, Settings, Database, Cloud, BarChart3, Globe } from 'lucide-react';
 import MotionWrapper from './MotionWrapper';
 
-const skillIconMap = { Laptop, Settings, Database, Cloud, BarChart3, Wrench };
+const skillIconMap = { Laptop, Settings, Database, Cloud, BarChart3, Wrench, Globe };
 
 function SkillTagWithTooltip({ tag, index = 0 }) {
   const tagRef = useRef(null);
@@ -52,8 +52,7 @@ function SkillTagWithTooltip({ tag, index = 0 }) {
 
 export default function SkillsSection() {
   return (
-    <div className="fade-in-section is-visible" style={{ animation: "portfolioReveal 0.8s ease-out both", animationTimeline: "view()", animationRange: "entry 0% cover 30%" }}>
-      <style>{`@keyframes portfolioReveal { from { opacity: 0; transform: translateY(28px); filter: blur(6px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }`}</style>
+    <div className="reveal-section">
       <section id="skills" className="skills-section">
       <MotionWrapper>
         <h2 className="section-title"><Wrench size={20} /> Skills</h2>

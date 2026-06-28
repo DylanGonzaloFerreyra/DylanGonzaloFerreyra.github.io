@@ -13,7 +13,7 @@ export default function Footer() {
     >
       <span className="footer-text">© {new Date().getFullYear()} {personalInfo.name}</span>
       <span className="footer-text">
-        Built with IA and{' '}
+        Built with AI and{' '}
         <motion.span
           style={{ display: 'inline-block' }}
           animate={{ scale: [1, 1.2, 1] }}

@@ -167,6 +167,42 @@ export const projects: Project[] = [
 
 export const certificates: Certificate[] = [
   {
+    title: 'Snowflake Professional Certificate',
+    description: 'Snowflake Data Engineering Professional Certificate',
+    image: '/certificates/Snowflake_Data_Engineering_Professional.jpg',
+    link: '/certificates/Snowflake Data Engineering Professional Certificate.pdf',
+  },
+  {
+    title: 'AWS Cloud Practitioner',
+    description: 'AWS Cloud Practitioner Certificate',
+    image: '/certificates/udemy_AWS_Certified_Cloud_Practitioner.jpg',
+    link: 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-7dd03ee4-a8b3-41bc-bb54-20e2997df460.pdf',
+  },
+  {
+    title: 'English Certificate C1',
+    description: 'EF SET C1 Advanced Certificate',
+    image: '/certificates/EFSETCertificateC1.png',
+    link: '/certificates/EFSETCertificateC1.pdf',
+  },
+  {
+    title: 'Advanced Snowflake',
+    description: 'Advanced Data Engineering with Snowflake',
+    image: '/certificates/Advanced_Data_Engineering_with_Snowflake.jpg',
+    link: '/certificates/Advanced Data Engineering with Snowflake.pdf',
+  },
+  {
+    title: 'Modern Data Engineering',
+    description: 'Introduction to Modern Data Engineering with Snowflake',
+    image: '/certificates/Introduction_to_Modern_Data_Engineering.jpg',
+    link: '/certificates/Introduction to Modern Data Engineering with Snowflake.pdf',
+  },
+  {
+    title: 'Snowflake for Devs',
+    description: 'Intro to Snowflake for Devs, Data Scientists & Data Engineers',
+    image: '/certificates/Intro_to_Snowflake_for_Devs.jpg',
+    link: '/certificates/Intro to Snowflake for Devs, Data Scientists, Data Engineers.pdf',
+  },
+  {
     title: 'Python',
     description: "CS50's Introduction to Programming with Python",
     image: '/certificates/CS50P_PYTHON.jpg',
@@ -197,22 +233,10 @@ export const certificates: Certificate[] = [
     link: 'https://courses.cognitiveclass.ai/certificates/44bbe2dd450b436997739b70b75530e3',
   },
   {
-    title: 'AWS Cloud Practitioner',
-    description: 'AWS Cloud Practitioner Certificate',
-    image: '/certificates/udemy_AWS_Certified_Cloud_Practitioner.jpg',
-    link: 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-7dd03ee4-a8b3-41bc-bb54-20e2997df460.pdf',
-  },
-  {
     title: 'ACEITECH - Siemens LOGO! Contest',
     description: 'Siemens LOGO! Programming Contest - ACEITECH',
     image: '/certificates/SiemensCertificate.png',
     link: '/certificates/SiemensCertificate.png',
-  },
-  {
-    title: 'English Certificate C1',
-    description: 'EF SET C1 Advanced Certificate',
-    image: '/certificates/EFSETCertificateC1.png',
-    link: '/certificates/EFSETCertificateC1.pdf',
   },
 ];
 

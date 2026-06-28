@@ -36,8 +36,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="fade-in-section is-visible" style={{ animation: "portfolioReveal 0.8s ease-out both", animationTimeline: "view()", animationRange: "entry 0% cover 30%" }}>
-      <style>{`@keyframes portfolioReveal { from { opacity: 0; transform: translateY(28px); filter: blur(6px); } to { opacity: 1; transform: translateY(0); filter: blur(0); } }`}</style>
+    <div className="reveal-section">
       <section className="hero-section">
       <motion.div
         className="hero-row"
