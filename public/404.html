@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    // Capture the attempted path and redirect to the hash-based route.
+    // e.g. /certificates → /#/certificates
+    (function () {
+      var path = window.location.pathname;
+      // Avoid double-redirect or redirect loops
+      if (path === '/' || path === '/index.html') {
+        window.location.replace('/');
+      } else {
+        window.location.replace('/#' + path);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to <span id="target"></span>...</p>
+</body>
+</html>
