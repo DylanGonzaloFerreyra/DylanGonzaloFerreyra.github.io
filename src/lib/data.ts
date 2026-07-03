@@ -69,7 +69,7 @@ export const personalInfo: PersonalInfo = {
 // ─── About ────────────────────────────────────────────────────────────────────
 
 export const about =
-  'Data & Backend Engineer based in Argentina. I specialize in building efficient data pipelines and scalable backend systems using Python, SQL, and Cloud technologies. Currently applying my skills at Wollen Labs while pursuing a Data Science degree at UNLP. Passionate about bridging the gap between complex data and actionable business solutions.';
+  'Data & Backend Engineer based in Argentina. I specialize in building efficient data pipelines and scalable backend systems using Python, SQL, and Cloud technologies. Currently applying my skills at Luno while pursuing a Data Science degree at UNLP. Passionate about bridging the gap between complex data and actionable business solutions.';
 
 // ─── Nav Items ────────────────────────────────────────────────────────────────
 
@@ -244,7 +244,7 @@ export const certificates: Certificate[] = [
 
 export const experience: Experience[] = [
   {
-    role: 'Data & Backend Engineer | Wollen Labs',
+    role: 'Data & Backend Engineer | Luno',
     location: 'Remote',
     period: 'Nov 2025 - Present',
     items: [
@@ -280,7 +280,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'TypeScript',
-        tooltip: '1+ year · Used for full-stack development at Wollen Labs with tRPC, Drizzle ORM, and React Native.',
+        tooltip: '1+ year · Used for full-stack development at Luno with tRPC, Drizzle ORM, and React Native.',
       },
       {
         name: 'SQL',
@@ -298,7 +298,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'tRPC',
-        tooltip: '1 year · End-to-end type-safe API layer used at Wollen Labs with Zod validation.',
+        tooltip: '1 year · End-to-end type-safe API layer used at Luno with Zod validation.',
       },
     ],
   },
@@ -308,7 +308,7 @@ export const skills: SkillGroup[] = [
     tags: [
       {
         name: 'PostgreSQL',
-        tooltip: '2+ years · Primary relational database. Used at Wollen Labs for core schema design and migrations.',
+        tooltip: '2+ years · Primary relational database. Used at Luno for core schema design and migrations.',
       },
       {
         name: 'MySQL',
@@ -324,7 +324,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Drizzle (ORM)',
-        tooltip: '1 year · Type-safe ORM used at Wollen Labs with PostgreSQL and TypeScript.',
+        tooltip: '1 year · Type-safe ORM used at Luno with PostgreSQL and TypeScript.',
       },
     ],
   },
