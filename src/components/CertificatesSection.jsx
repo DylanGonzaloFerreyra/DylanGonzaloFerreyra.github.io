@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, ScrollText } from 'lucide-react';
 import { certificates } from '../lib/data';
 import MotionWrapper from './MotionWrapper';
+import PdfThumbnail from './PdfThumbnail';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -49,10 +50,7 @@ export default function CertificatesSection({ showAll = false }) {
                 variants={itemVariants}
                 whileHover={{ y: -5 }}
               >
-                <div
-                  className="cert-card-img"
-                  style={{ backgroundImage: `url(${c.image})` }}
-                />
+                <PdfThumbnail src={c.image} alt={c.title} />
                 <div className="cert-card-content">
                   <span className="cert-card-title">{c.title}</span>
                   <p className="cert-card-desc">{c.description}</p>

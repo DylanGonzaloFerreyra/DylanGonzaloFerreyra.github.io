@@ -167,10 +167,10 @@ export const projects: Project[] = [
 
 export const certificates: Certificate[] = [
   {
-    title: 'Snowflake Professional Certificate',
-    description: 'Snowflake Data Engineering Professional Certificate',
-    image: '/certificates/Snowflake_Data_Engineering_Professional.jpg',
-    link: '/certificates/Snowflake Data Engineering Professional Certificate.pdf',
+    title: 'IBM Data Engineering',
+    description: 'IBM Data Engineering Professional Certificate',
+    image: '/certificates/IBM Data Engineering.pdf',
+    link: '/certificates/IBM Data Engineering.pdf',
   },
   {
     title: 'AWS Cloud Practitioner',
@@ -185,21 +185,27 @@ export const certificates: Certificate[] = [
     link: '/certificates/EFSETCertificateC1.pdf',
   },
   {
+    title: 'Snowflake Professional Certificate',
+    description: 'Snowflake Data Engineering Professional Certificate',
+    image: '/certificates/Snowflake Data Engineering Professional Certificate.pdf',
+    link: '/certificates/Snowflake Data Engineering Professional Certificate.pdf',
+  },
+  {
     title: 'Advanced Snowflake',
     description: 'Advanced Data Engineering with Snowflake',
-    image: '/certificates/Advanced_Data_Engineering_with_Snowflake.jpg',
+    image: '/certificates/Advanced Data Engineering with Snowflake.pdf',
     link: '/certificates/Advanced Data Engineering with Snowflake.pdf',
   },
   {
     title: 'Modern Data Engineering',
     description: 'Introduction to Modern Data Engineering with Snowflake',
-    image: '/certificates/Introduction_to_Modern_Data_Engineering.jpg',
+    image: '/certificates/Introduction to Modern Data Engineering with Snowflake.pdf',
     link: '/certificates/Introduction to Modern Data Engineering with Snowflake.pdf',
   },
   {
     title: 'Snowflake for Devs',
     description: 'Intro to Snowflake for Devs, Data Scientists & Data Engineers',
-    image: '/certificates/Intro_to_Snowflake_for_Devs.jpg',
+    image: '/certificates/Intro to Snowflake for Devs, Data Scientists, Data Engineers.pdf',
     link: '/certificates/Intro to Snowflake for Devs, Data Scientists, Data Engineers.pdf',
   },
   {
@@ -237,6 +243,120 @@ export const certificates: Certificate[] = [
     description: 'Siemens LOGO! Programming Contest - ACEITECH',
     image: '/certificates/SiemensCertificate.png',
     link: '/certificates/SiemensCertificate.png',
+  },
+  {
+    title: 'BI Dashboards',
+    description: 'BI Dashboards with IBM Cognos Analytics and Google Looker',
+    image: '/certificates/BI Dashboards with IBM Cognos Analytics and Google Looker.pdf',
+    link: '/certificates/BI Dashboards with IBM Cognos Analytics and Google Looker.pdf',
+  },
+  {
+    title: 'Data Engineering Capstone',
+    description: 'Data Engineering Capstone Project',
+    image: '/certificates/Data Engineering Capstone Project.pdf',
+    link: '/certificates/Data Engineering Capstone Project.pdf',
+  },
+  {
+    title: 'Career Guide & Interview Prep',
+    description: 'Data Engineering Career Guide and Interview Preparation',
+    image: '/certificates/Data Engineering Career Guide and Interview Preparation.pdf',
+    link: '/certificates/Data Engineering Career Guide and Interview Preparation.pdf',
+  },
+  {
+    title: 'Data Warehouse Fundamentals',
+    description: 'Data Warehouse Fundamentals',
+    image: '/certificates/Data Warehouse Fundamentals.pdf',
+    link: '/certificates/Data Warehouse Fundamentals.pdf',
+  },
+  {
+    title: 'Databases & SQL for Data Science',
+    description: 'Databases and SQL for Data Science with Python',
+    image: '/certificates/Databases and SQL for Data Science with Python.pdf',
+    link: '/certificates/Databases and SQL for Data Science with Python.pdf',
+  },
+  {
+    title: 'ETL & Data Pipelines',
+    description: 'ETL and Data Pipelines with Shell, Airflow and Kafka',
+    image: '/certificates/ETL and Data Pipelines with Shell, Airflow and Kafka.pdf',
+    link: '/certificates/ETL and Data Pipelines with Shell, Airflow and Kafka.pdf',
+  },
+  {
+    title: 'Generative AI for Data Engineering',
+    description: 'Generative AI: Elevate your Data Engineering Career',
+    image: '/certificates/Generative AI: Elevate your Data Engineering Career.pdf',
+    link: '/certificates/Generative AI: Elevate your Data Engineering Career.pdf',
+  },
+  {
+    title: 'Linux Commands & Shell Scripting',
+    description: 'Hands-on Introduction to Linux Commands and Shell Scripting',
+    image: '/certificates/Hands-on Introduction to Linux Commands and Shell Scripting.pdf',
+    link: '/certificates/Hands-on Introduction to Linux Commands and Shell Scripting.pdf',
+  },
+  {
+    title: 'Big Data with Spark & Hadoop',
+    description: 'Introduction to Big Data with Spark and Hadoop',
+    image: '/certificates/Introduction to Big Data with Spark and Hadoop.pdf',
+    link: '/certificates/Introduction to Big Data with Spark and Hadoop.pdf',
+  },
+  {
+    title: 'Introduction to Data Engineering',
+    description: 'Introduction to Data Engineering',
+    image: '/certificates/Introduction to Data Engineering.pdf',
+    link: '/certificates/Introduction to Data Engineering.pdf',
+  },
+  {
+    title: 'Introduction to NoSQL Databases',
+    description: 'Introduction to NoSQL Databases',
+    image: '/certificates/Introduction to NoSQL Databases.pdf',
+    link: '/certificates/Introduction to NoSQL Databases.pdf',
+  },
+  {
+    title: 'Intro to Relational Databases',
+    description: 'Introduction to Relational Databases (RDBMS)',
+    image: '/certificates/Introduction to Relational Databases (RDBMS).pdf',
+    link: '/certificates/Introduction to Relational Databases (RDBMS).pdf',
+  },
+  {
+    title: 'ML with Apache Spark',
+    description: 'Machine Learning with Apache Spark',
+    image: '/certificates/Machine Learning with Apache Spark.pdf',
+    link: '/certificates/Machine Learning with Apache Spark.pdf',
+  },
+  {
+    title: 'NoSQL, Big Data & Spark Foundations',
+    description: 'NoSQL, Big Data, and Spark Foundations',
+    image: '/certificates/NoSQL, Big Data, and Spark Foundations.pdf',
+    link: '/certificates/NoSQL, Big Data, and Spark Foundations.pdf',
+  },
+  {
+    title: 'Python for Data Science & AI',
+    description: 'Python for Data Science, AI & Development',
+    image: '/certificates/Python for Data Science, AI & Development.pdf',
+    link: '/certificates/Python for Data Science, AI & Development.pdf',
+  },
+  {
+    title: 'Python Project for Data Engineering',
+    description: 'Python Project for Data Engineering',
+    image: '/certificates/Python Project for Data Engineering.pdf',
+    link: '/certificates/Python Project for Data Engineering.pdf',
+  },
+  {
+    title: 'Relational Database Administration',
+    description: 'Relational Database Administration (DBA)',
+    image: '/certificates/Relational Database Administration (DBA).pdf',
+    link: '/certificates/Relational Database Administration (DBA).pdf',
+  },
+  {
+    title: 'DBA Capstone Project',
+    description: 'Relational Database Administration Capstone Project',
+    image: '/certificates/Relational Database Administration Capstone Project.pdf',
+    link: '/certificates/Relational Database Administration Capstone Project.pdf',
+  },
+  {
+    title: 'IBM RDB Admin with GenAI',
+    description: 'IBM Relational Database Administrator with GenAI',
+    image: '/certificates/IBM Relational Database Administrator with GenAI.pdf',
+    link: '/certificates/IBM Relational Database Administrator with GenAI.pdf',
   },
 ];
 
