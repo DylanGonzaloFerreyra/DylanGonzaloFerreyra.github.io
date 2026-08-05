@@ -85,6 +85,22 @@ export const navItems: NavItem[] = [
 
 export const projects: Project[] = [
   {
+    title: 'Exos',
+    description:
+      "We build the kind of software usually reserved for far bigger players: validated, production-ready multi-tenant systems — and fully bespoke platforms when the problem calls for it. From the first scoping call through architecture, delivery and the infrastructure it runs on, we own the whole arc. Role: Co-founder & engineer.",
+    image: "/project_covers/ExosCover.png",
+    github: 'https://exoscode.com/',
+    actionLabel: 'Visit',
+  },
+  {
+    title: 'Congrex Events',
+    description:
+      "A national-scale platform that pulls an entire medical-congress ecosystem — three very different audiences — into a single system. Three roles, one platform: industries that sponsor physicians' training, physicians who get unified agendas plus AI tools that deepen what they learn at each event, and organisers who publish and run their congresses without clashing dates. Underneath it all — certifications, attendance control, live and on-demand streaming, payments and subscriptions. Role: Engineer — strategy, architecture & delivery.",
+    image: null,
+    github: 'https://exoscode.com/',
+    actionLabel: 'Visit',
+  },
+  {
     title: 'Fictional Store Dashboard',
     description:
       'Fake Store Dashboard created using Power BI and enriched with data generated in Python using Faker library.',
